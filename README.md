@@ -4,6 +4,10 @@ Personal terminal setting for Linux
 * vim
 
 # Setting
-```sh
+```bash
 $ source ./setup.sh
+```
+or
+```bash
+source ./init.sh
 ```
