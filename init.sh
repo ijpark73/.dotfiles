@@ -33,6 +33,12 @@ mv download_script* .vim/syntax/python.vim
 # Language Installation
 sudo apt install -y python3 python3-dev python3-pip
 python3 -m pip3 install --upgrade pip
+pip install --user jupyter
+jupyter notebook --generate-config
+mkdir notebook
+mkdir .jupyter/custom
+wget https://raw.githubusercontent.com/ijparking/.dotfiles/master/custom.css
+mv custom.css .jupyter/custom
 
 curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
 sudo apt update
