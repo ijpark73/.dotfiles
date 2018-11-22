@@ -1,0 +1,39 @@
+/*This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file.*/
+
+#ipython-main-app {
+    position: relative;
+}
+#jupyter-main-app {
+    position: relative;
+}
+
+.rendered_html pre, .rendered_html code, pre, .CodeMirror, .prompt {
+  font-family: D2Coding, 나눔고딕코딩, Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;;
+}
+
+.rendered_html pre,
+.rendered_html code {
+    font-family: D2Coding, Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    /* background-color: #f5f5f5; */
+}
+.rendered_html pre {
+    padding: 8.5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.rendered_html p > code,
+.rendered_html ul li code {
+    border: solid 1px #e1e4e5;
+    color: #E74C3C;
+    padding: 0 5px;
+    overflow-x: auto;
+}
+blockquote {
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+    border-left: 5px solid #dfb5b4;
+    padding: 0.5em;
+}
+
